@@ -1,0 +1,13 @@
+:root{
+    --primarycolor:#e81d64;
+    --primaryfont:"Open Sans", sans-serif ;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: var(--primarycolor);
+}
+body{
+    font-family: var(--primaryfont);
+}
+.navbar{
+    font-size: 14px;
+}
