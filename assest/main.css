@@ -11,3 +11,11 @@ body{
 .navbar{
     font-size: 14px;
 }
+.hero_section{
+    background-image: url(./../assest/img/bg.jpg);
+    background-position: center ;
+    background-size: cover;
+}
+.main__color{
+    color: var(--primarycolor);
+}
