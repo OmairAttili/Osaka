@@ -8,9 +8,6 @@
 body{
     font-family: var(--primaryfont);
 }
-.navbar{
-    font-size: 14px;
-}
 .hero_section{
     background-image: url(./../assest/img/bg.jpg);
     background-position: center ;
@@ -18,4 +15,7 @@ body{
 }
 .main__color{
     color: var(--primarycolor);
+}
+.about{
+    background-image: url(./../assest/img/light_dot.jpg);
 }
