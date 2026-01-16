@@ -10,12 +10,23 @@ body{
 }
 .hero_section{
     background-image: url(./../assest/img/bg.jpg);
-    background-position: center ;
+    background-position: center -40px;
     background-size: cover;
 }
 .main__color{
     color: var(--primarycolor);
 }
-.about{
+.about,
+.Portfolio{
     background-image: url(./../assest/img/light_dot.jpg);
+}
+.Portfolio .nav-tabs .nav-link{
+    border: none;
+    color: black;
+}
+.Portfolio .nav-tabs{
+    border: none;
+}
+.Portfolio .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: var(--primarycolor);
 }
